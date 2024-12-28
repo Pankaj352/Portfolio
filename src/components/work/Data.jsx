@@ -7,13 +7,13 @@ import Work5 from '../../assets/work5.jpg'
 export const projectsData = [
   {
     id: 1,
-    image: Work1,
+    image: https://gym-website-4qso5ig3q-sams-projects-083dd950.vercel.app/#body_,
     title: "Web design",
     category: "Web",
   },
   {
     id: 2,
-    image: Work2,
+    image: https://dice-roll-simulator-npbt8hfnb-sams-projects-083dd950.vercel.app/,
     title: "App movil",
     category: "App",
   },
