@@ -4,8 +4,8 @@ import { projectsNav } from "./Data";
 import WorkItems from "./WorkItems";
 
 const Works = () => {
-  const [item, setItem] = useState({ name: 'all' });
-  const [projects, setProjects] = useState(projectsData);  // Initialize with all projects
+  const [item, setItem] = useState({ name: "all" });
+  const [projects, setProjects] = useState(projectsData); // Initialize with all projects
   const [active, setActive] = useState(0);
 
   useEffect(() => {
@@ -32,9 +32,8 @@ const Works = () => {
           return (
             <span
               onClick={(e) => handleClick(e, index)}
-              className={`${active === index ? 'active-work' : ''} work__item`}
-              key={index}
-            >
+              className={`${active === index ? "active-work" : ""} work__item`}
+              key={index}>
               {item.name}
             </span>
           );
