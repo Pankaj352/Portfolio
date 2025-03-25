@@ -65,7 +65,7 @@ const Header = () => {
                 <i className="uil uil-file-alt nav__icon"></i>Skills
               </a>
             </li>
-            <li className="nav__item">
+            {/* <li className="nav__item">
               <a
                 href="#services"
                 onClick={() => setActiveNav("#services")}
@@ -76,7 +76,7 @@ const Header = () => {
                 }>
                 <i className="uil uil-briefcase-alt nav__icon"></i>Services
               </a>
-            </li>
+            </li> */}
             <li className="nav__item">
               <a
                 href="#portfolio"
@@ -101,7 +101,7 @@ const Header = () => {
                 <i className="uil uil-message nav__icon"></i>Contact
               </a>
             </li>
-            <li className="nav__item">
+            {/* <li className="nav__item">
               {/* Blog Navigation */}
               <Link
                 to="/blog"
@@ -111,7 +111,7 @@ const Header = () => {
                 }>
                 <i className="uil uil-message nav__icon"></i>Blog
               </Link>
-            </li>
+            </li> */}
             <i
               className="uil uil-times nav__close"
               onClick={() => showMenu(!Toggle)}></i>
