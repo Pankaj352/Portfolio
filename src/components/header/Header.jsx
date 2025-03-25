@@ -89,6 +89,7 @@ const Header = () => {
                 <i className="uil uil-scenery nav__icon"></i>Portfolio
               </a>
             </li>
+
             <li className="nav__item">
               <a
                 href="#contact"
@@ -101,17 +102,6 @@ const Header = () => {
                 <i className="uil uil-message nav__icon"></i>Contact
               </a>
             </li>
-            {/* <li className="nav__item">
-              {/* Blog Navigation */}
-              <Link
-                to="/blog"
-                onClick={() => setActiveNav("#blog")}
-                className={
-                  activeNav === "#blog" ? "nav__link active-link" : "nav__link"
-                }>
-                <i className="uil uil-message nav__icon"></i>Blog
-              </Link>
-            </li> */}
             <i
               className="uil uil-times nav__close"
               onClick={() => showMenu(!Toggle)}></i>
