@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css';
 import AboutImg from '../../assets/profile.png';
-import CV from '../../assets/Pankaj Maurya Resume.pdf';
+import CV from '../../assets/Pankaj_Maurya_SDE.pdf';
 import Info from './Info';
 
 
