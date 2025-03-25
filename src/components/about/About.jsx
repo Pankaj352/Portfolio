@@ -3,6 +3,7 @@ import './about.css';
 import AboutImg from '../../assets/profile.png';
 import CV from '../../assets/Pankaj_Maurya_SDE.pdf';
 import Info from './Info';
+import Frontend from './../skills/Frontend';
 
 
 
@@ -16,7 +17,7 @@ const About = () => {
             <img src={AboutImg} alt="" className="about__img" />
             <div className="about__data">
                 <Info/>
-                <p className="about__description">Enthusiastic and dedicated full stack developer with six months of hands-on experience in building web applications. Possesses a strong foundation in both front-end and back-end technologies, coupled with a passion for learning and staying updated with the latest trends in web development.</p>
+                <p className="about__description">Enthusiastic and dedicated Frontend developer with six months of hands-on experience in building web applications. Possesses a strong foundation in both front-end and back-end technologies, coupled with a passion for learning and staying updated with the latest trends in web development.</p>
                 <a  download='' href={CV} className="button button--flex">Download CV
                 <svg
                 class="button__icon"
