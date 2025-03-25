@@ -11,7 +11,7 @@ export const projectsData = [
   {
     id: 1,
     image: gym,
-    title: "Web design",
+    title: "Gym Website",
     category: "Design",
     link: "https://gym-website-mocha-ten.vercel.app/",
     github: "https://github.com/Pankaj352/Gym-Website",
@@ -19,7 +19,7 @@ export const projectsData = [
   {
     id: 2,
     image: covido,
-    title: "Web design",
+    title: "Fashion Store",
     category: "Design",
     link: "https://codevo-ecommerce-website.vercel.app/",
     github: "https://github.com/Pankaj352/Codevo-Ecommerce-Website",
@@ -27,7 +27,7 @@ export const projectsData = [
   {
     id: 3,
     image: otera,
-    title: "Web design",
+    title: "Blog Website",
     category: "Design",
     link: "https://shop-co-vert-tau.vercel.app/",
     github: "https://github.com/Pankaj352/Shop.co",
@@ -35,7 +35,7 @@ export const projectsData = [
   {
     id: 4,
     image: shopCo,
-    title: "Web design",
+    title: "Ecommerce Website",
     category: "Frontend",
     link: "https://ecommerce-website-puce-alpha.vercel.app/",
     github: "https://github.com/Pankaj352/Ecommerce-Website",
@@ -43,7 +43,7 @@ export const projectsData = [
   {
     id: 5,
     image: coffee,
-    title: "Web design",
+    title: "Coffee Website",
     category: "Design",
     link: "https://coffee-static-website.vercel.app/",
     github: "https://github.com/Pankaj352/Coffee-Static-Website",
@@ -51,7 +51,7 @@ export const projectsData = [
   {
     id: 6,
     image: toggleTheme,
-    title: "Web design",
+    title: "Counter App With Toggle Theme",
     category: "Design",
     link: "https://counter-app-with-toggle-button-for-theme-switch.vercel.app/",
     github:
@@ -60,16 +60,16 @@ export const projectsData = [
   {
     id: 7,
     image: dice,
-    title: "Web design",
-    category: "Design",
+    title: "A Dice Roll Web App",
+    category: "Web App",
     link: "https://dice-roll-simulator-psi.vercel.app/",
     github: "https://github.com/Pankaj352/Dice-Roll-Simulator",
   },
   {
     id: 8,
     image: titac,
-    title: "Web design",
-    category: "Design",
+    title: "A Tic Tac Toe Game",
+    category: "Web App",
     link: "https://tic-tac-toe-ebon-xi.vercel.app/",
     github: "https://github.com/Pankaj352/tic-tac-toe",
   },
@@ -79,7 +79,10 @@ export const projectsNav = [
   {
     name: "All",
   },
-    {
+  {
+    name: "Web App",
+  },
+  {
     name: "Design",
   },
   {
@@ -88,6 +91,4 @@ export const projectsNav = [
   {
     name: "Full stack",
   },
-
-
 ];
