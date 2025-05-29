@@ -56,10 +56,10 @@ const Data = () => {
         </h1>
 
         <h3 className="home__subtitle">
-            Full Stack Developer(MERN)
+            Frontend Developer
         </h3>
         <p className="home__description">
-        Enthusiastic and dedicated full stack developer with six months of hands-on experience in building web applications. Possesses a strong foundation in both front-end and back-end technologies, coupled with a passion for learning and staying updated with the latest trends in web development.
+        Enthusiastic and dedicated frontend developer with six months of hands-on experience in building web applications. Possesses a strong foundation in both front-end technologies, coupled with a passion for learning and staying updated with the latest trends in web development.
         </p>
 
         <a href="#contact" className="button button--flex">
